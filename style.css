@@ -1,0 +1,129 @@
+/* ------------- General ------------- */
+
+body {    
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: Open Sans;
+}
+
+/* ------------- Navigation bar --------------- */
+
+
+.navbar-container {
+    background-color: white;
+    font-size: 2vh;
+    position: fixed;
+    width: 100%; 
+    z-index: 100;
+}
+
+.logo{
+    height: 8vh;
+}
+
+.navbar-container-logo {
+    text-align: left;
+    padding-left: 5vh
+}
+
+.navbar-grid {
+    width: 100%;
+    height: 10vh;
+    display: inline-grid;
+    grid-template-columns: 60% 10% 10% 10% 10%;
+  line-height: 100px;
+  text-align: center;
+    font-family: sans-serif;
+  }
+
+
+/* ------------- Cover ------------- */
+
+.cover{
+    background-color: #dd3438;
+    height: 85vh;
+    padding: 15vh 40vh 0vh 5vh;
+    
+}
+.cover h1 {
+    font-size: 14vh;
+    font-family: sans-serif;
+    line-height: 13vh;
+    color: #ffa800; 
+    margin: 0;
+}
+
+.cover h2 {
+    font-size: 3vh;
+    font-family: sans-serif;
+    line-height: 5vh;
+    color: #f2eddb;;   
+}
+
+
+
+/* ------------- Benefits ------------- */
+
+.benefits{
+    height: 100vh;
+    
+}
+
+.benefits h1{
+    font-family: sans-serif;
+    font-size: 10vh;
+    text-align: center;
+    padding-top: 10vh;
+    color: #ffa800; 
+}
+
+.benefits-grid{
+      display: grid;
+  grid-template-columns: 33% 33% 33%;
+grid-template-rows:  50% 50%;
+  color: #444;
+    padding: 2vh 10vh 2vh 10vh;
+}
+
+.benefits-grid-item{
+    font-size: 2vh;
+    background-color: #dd3438;
+  color: #f2eddb;
+    text-align: center;
+    padding: 4vh;
+    margin: 3vh;
+    font-family: sans-serif;
+      border-radius: 25px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* ------------- Footer ------------- */
+.footer{
+    background-color: #dd3438;
+    margin-top: 20vh;
+      left: 0;
+  bottom: 0;
+  color: #f2eddb;
+  text-align: center;
+    font-family: sans-serif;
+    padding: 2vh;
+}
+
+.footer-grid{
+      display: inline-grid;
+    align-content: center;
+  grid-template-columns: 50% 50%;
+  color: #444;
+    padding: 2vh 10vh 2vh 10vh;
+}
+
+.footer-grid-item{
+      display: inline-grid;
+    align-content: center;
+  grid-template-columns: 50% 50%;
+  color: #444;
+    padding: 2vh 10vh 2vh 10vh;
+}
+
