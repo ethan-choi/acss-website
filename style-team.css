@@ -28,10 +28,10 @@ body {
     margin-top: 1vh;
     margin-left: 15vh;
     margin-right: auto;
-        margin-bottom: 1vh;
+    margin-bottom: 1vh;
     width: auto;
     height: 8vh;
-        align-items: center;
+    align-items: center;
 }
 
 
@@ -56,13 +56,11 @@ body {
     font-size: 3vh;
 }
 
-
 .join{
     background-color: #dd3438;
     padding: 1vh 3vh 1vh 3vh;
-    border-radius: 5px;
+    border-radius: 2px;
 }
-
 
 
 @media screen and (max-width: 992px) {
@@ -85,8 +83,8 @@ body {
 
 .cover{
     background-color: #dd3438;
-    height: 85vh;
-    padding: 15vh 40vh 0vh 15vh;
+    height: auto;
+    padding: 15vh 40vh 10vh 15vh;
 
 }
 .cover h1 {
@@ -121,7 +119,7 @@ body {
 @media screen and (max-width: 992px) {
     .cover{
         background-color: #dd3438;
-        height: 85vh;
+        height: auto;
         padding: 15vh 3vh 1vh 3vh;
 
     }
@@ -140,50 +138,57 @@ body {
 }
 
 
-/* ------------- Benefits ------------- */
-
-.benefits{
+/* ------------- Team ------------- */
+.team{
     height: 100vh;
 }
 
-.benefits-title{
+.team-title{
     font-family: 'Open Sans', sans-serif;
     font-size: 5vh;
     text-align: center;
     color: #ffa800; 
 }
 
-.benefits-grid{
+.team-grid{
     display: grid;
     grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto;
     margin: 5vh 40vh 20vh 40vh;
+    line-height: 1vh;
 
 }
 
-.benefits-grid h2{
+.details {
+    c
+}
+.team-grid h2{
     font-size: 3vh;
 }
 
-.benefits-grid p{
-    font-size: 70%;
+.team-grid p{
+    font-size: 100%;
+    
 }
-.benefits-grid-item img{
+.team-grid-item img{
     display:block;
     margin:auto;
+    height: 20vh;
+    border-radius: 5px;
 }
 
-.benefits-grid-item{
+.team-grid-item{
     font-size: 2vh;
     background-color: #dd3438;
     color: #f2eddb;
     text-align: center;
-    padding: 5vh;
+    padding: 3vh;
     margin: 1vh;
     font-family: 'Open Sans', sans-serif;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    height: 25vh;
-    width: auto;
+    height: auto;
+
 }
 
 
@@ -198,6 +203,8 @@ body {
     }
 }
 
+
+
 /* ------------- Footer ------------- */
 .footer{
     background-color: #dd3438;
@@ -208,7 +215,6 @@ body {
     text-align: center;
     font-family: sans-serif;
     padding: 2vh;
-
 }
 
 .footer-grid{
@@ -220,15 +226,13 @@ body {
 }
 
 .footer-grid-item{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+    display: inline-grid;
     align-content: center;
     grid-template-columns: 50% 50%;
     color: #444;
     padding: 2vh 10vh 2vh 10vh;
 }
+
 
 
 
@@ -248,3 +252,4 @@ a:active {
     text-decoration: inherit;
     cursor: pointer;
 }
+
